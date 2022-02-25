@@ -15,10 +15,10 @@ public class InputName {
         Scanner scan=new Scanner(System.in);
         System.out.println("Please enter your name");
         String name=scan.next();
-        if(name.equalsIgnoreCase("Alice")){
-            System.out.println("Entered name is Alice");
+        if(name.equalsIgnoreCase("Alice")|| name.equalsIgnoreCase("Bob")){
+            System.out.println("Hi " +name);
         }else{
-            System.out.println(" Entered name is Bob");
+            System.out.println("Hi "+name);
         }
       return name;
     }
